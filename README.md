@@ -4,6 +4,18 @@
 
 This repository contains code examples for the web application chapters of [_JavaScript Everywhere_](https://www.jseverywhere.io/) by Adam D. Scott, published by O'Reilly Media
 
+## Config .env
+
+```shell
+$ cp .env.example .env
+```
+
+## Setup your DBhost & Token Secret
+
+```.env
+API_URI=<YOUR_API_URL>
+```
+
 ## To Run the Application
 
 When developing locally, you can start the app by running:
