@@ -6,6 +6,7 @@ import { Link, withRouter } from 'react-router-dom';
 
 import ButtonAsLink from './ButtonAsLink';
 import { IS_LOGGED_IN } from '../gql/query';
+// import HeaderButton from './HeaderButton';
 
 const HeaderBar = styled.header`
   width: 100%;
